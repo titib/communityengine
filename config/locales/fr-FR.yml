@@ -1050,6 +1050,8 @@ fr:
   see_all_activity: "Voir toute l'activité"
   #en: see_all_events: See all events
   see_all_events: Voir tous les évènements
+  #en: see_all_recent_posts: See all recent posts
+  see_all_recent_posts: Voir tous les messages récents
   #en: see_you_back_here_in_a_short_while: See you back here in a short while.
   see_you_back_here_in_a_short_while: A tout de suite
   #en: select_images_to_upload: Select Images to Upload
