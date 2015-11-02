@@ -8,7 +8,7 @@
 
 .col-sm-3
   %hr
-  %h2=:tags.l
+  %h2=t('tags.show.users')
   - tag_cloud @popular_tags, %w(css1 css2 css3 css4 css5) do |tag, css_class|
     = link_to tag.name, tag_path(tag.to_param), :class => css_class
   %p
