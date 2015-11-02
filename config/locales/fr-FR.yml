@@ -1,4 +1,30 @@
 fr:
+  authorizations:
+    create:
+      success_existing_user: "Ajout de l'authentification %{provider} réussi"
+      success_message: "Bienvenu cher utilisateur de %{provider}. Vous êtes maintenant connecté."      
+    failure:
+      notice: "Désolé, vous n'êtes pas autorisé."
+    destroy:
+      notice: "Suppression de l'authentification %{provider} réussi."
+  sessions:
+    new:
+      omniauth:
+        header: "Connectez-vous avec :"
+        button_alt: "Connectez-vous avec votre compte %{provider}"
+  users:
+    edit_account:
+      omniauth:
+        confirm_remove: "Etes-vous sûr de vouloir supprimer l'authentification par %{provider} ?"
+        title_remove: "Supprimer l'authentification par %{provider} ?"
+  tags:
+    show:
+      users: Utilisateurs
+  sitemaps:
+    index:
+      users: Utilisateurs
+
+
   date:
     formats:
       published_date: "%d/%m/%Y"
